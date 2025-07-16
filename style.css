@@ -112,6 +112,10 @@ footer img {
   background: rgb(39, 69, 80);
   padding: 20px;
 }
+.album iframe {
+  width: 100%;
+  border: none;
+}
 
 .page.index .wrapper {
   background: none;
