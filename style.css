@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Orwell';
+  src: url('images/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Orwell', sans-serif;
+  font-weight: lighter;
+}
+
+.page {
+  display: grid;
+  width: 800px;
+  background: rgb(255, 247, 232);
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ol {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  margin: 0px;
+}
+
+nav li {
+  display: block;
+  margin-left: 16px;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  background: linear-gradient(180deg,rgb(117, 157, 172) 0%, rgb(32, 73, 85) 100%);
+  padding: 16px 64px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+main .wrapper {
+  background: rgb(255, 247, 232);
+  padding: 25px;
+}
+
+main h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  border-bottom: 2px solid #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer img {
+  height: 50px;
+}
+
+.icon-instagram {
+  margin-right: 10px;
+}
+.icon-Spotify {
+}
+.icon-Mail {
+  margin-left: 10px;
+}
+
+.album {
+  background: rgb(39, 69, 80);
+  padding: 20px;
+}
+
+.page.index .wrapper {
+  background: none;
+}
+
+.page.index .wrapper img {
+  width: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.page.contact main section {
+  margin-bottom: 20px;
+}
+
+.page.contact main h3 {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: lighter;
+  margin: 0;
+  color: #333;
+}
+
+.page.contact main a {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: lighter;
+  margin: 0;
+  color: #333;
+}
+
+.page.contact main h3 .booking {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
